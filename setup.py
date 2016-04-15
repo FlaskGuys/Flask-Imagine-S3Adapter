@@ -8,7 +8,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Imagine-S3Adapter',
-    version='0.2.1',
+    version='0.4',
     description='Amazon AWS S3 adapter for Flask-Imagine extension.',
     url='https://github.com/FlaskGuys/Flask-Imagine-S3Adapter',
 
@@ -20,13 +20,13 @@ setup(
 
     install_requires=[
 
-        'Flask-Imagine>=0.2.1',
+        'Flask-Imagine>=0.4',
         'boto>=2.38.0',
 
     ],
 
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
